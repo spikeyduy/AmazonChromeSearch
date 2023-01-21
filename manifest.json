@@ -1,14 +1,13 @@
 {
     "name": "Amazon Contextual Menu Addon",
-    "action": {},
     "manifest_version": 3,
-    "version": "0.1",
-    "description": "Adds a 'search through amazon' right click contextual button",
+    "version": "1.0",
+    "description": "Adds a 'Search Amazon for Item' right click contextual button",
     "permissions": [
-        "activeTab",
-        "scripting",
-        "contextMenus",
-        "background"
+        "contextMenus"
     ],
-    "background": ["contextAdditionalMenu.js"]
+    "background": {
+        "service_worker": "background.js"
+    },
+    "action": {}
 }
