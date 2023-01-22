@@ -9,5 +9,9 @@
     "background": {
         "service_worker": "background.js"
     },
-    "action": {}
+    "action": {},
+    "icons": {
+        "48": "images/AmazonContext48.png",
+        "128": "images/AmazonContext128.png"
+    }
 }
