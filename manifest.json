@@ -1,5 +1,5 @@
 {
-    "name": "Amazon Contextual Menu Addon",
+    "name": "Amazon Search",
     "manifest_version": 3,
     "version": "1.0",
     "description": "Adds a 'Search Amazon for Item' right click contextual button",
